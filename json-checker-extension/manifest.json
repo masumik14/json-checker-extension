@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "JSONチェッカー",
+  "version": "1.0",
+  "description": "選択したテキストが有効なJSON形式かチェックします。",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
