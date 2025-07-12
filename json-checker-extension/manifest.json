@@ -5,8 +5,7 @@
   "description": "選択したテキストが有効なJSON形式かチェックします。",
   "permissions": [
     "activeTab",
-    "contextMenus",
-    "scripting"
+    "contextMenus"
   ],
   "background": {
     "service_worker": "background.js"
